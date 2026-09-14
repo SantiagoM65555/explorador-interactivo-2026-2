@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil de Santiago Muñoz</title>
+    <meta
+      name="Description"
+      content="Perfil de Santiago Muñoz, estudiante de Tecnología en Sistemas Informáticos de la Universidad de Caldas."
+    />
+
+    <meta property="og:title" content="Santiago Muñoz — Perfil" />
+    <meta
+      property="og:description"
+      content="Proyectos web de Santiago Muñoz."
+    />
+    <meta property="og:image" content="https://misitio.com/img/tarjeta.png" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Santiago Muñoz - Cada acción tiene su reacción</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#formacion">Formación</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section id="sobre-mi">
+          <h2>
+            Mi nombre es Santiago Muñoz Alvarán, tengo 19 años y estoy cursando
+            el 4° semestre de la Tecnología en Sistemas Informáticos de la
+            Universidad de Caldas. Elegí estudiar este programa porque desde
+            pequeño me ha gustado todo lo que tiene que ver con tecnología y
+            gracias a que el colegio en el que hice parte de mi bachiller tenía
+            convenio Fundación Casa Luker, tuve la oportunidad de hacer un
+            Técnico en Programación en la Universidad Autónoma del que me gradué
+            y después se me presentó la oportunidad de ingresar a la Ingeniería
+            en Sistemas de la Universidad de Caldas, a la cual no pude pasar,
+            pero me ofrecieron la opción de estudiar el programa de la
+            Tecnología en Sistemas para luego homologar hacia la Ingeniería.
+          </h2>
+
+          <figure>
+            <img src="avatar.jpeg" alt="Avatar" />
+            <figcaption>Mi Avatar</figcaption>
+          </figure>
+        </section>
+
+        <section id="formacion">
+          <table border="1">
+            <caption>
+              Formación
+            </caption>
+            <thead>
+              <tr>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Año</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Escuela Normal Superior de Manizales</td>
+                <td>Básica primaria</td>
+                <td>2017</td>
+              </tr>
+              <tr>
+                <td>I.E. Santo Domingo Savio</td>
+                <td>Bachiller</td>
+                <td>2024</td>
+              </tr>
+              <tr>
+                <td>Universidad Autónoma de Manizales</td>
+                <td>Técnico Profesional en Programación</td>
+                <td>2025</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="habilidades">
+          <h2>Tecnologías que conozco</h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <h2>Top 3 cosas que quiero aprender en el semestre</h2>
+          <ol>
+            <li>Crear páginas web</li>
+            <li>Diseñar como yo quiera una página web</li>
+            <li>Crear las bases para en un futuro dedicarme al backend</li>
+          </ol>
+        </section>
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <form action="#" method="post">
+            <div>
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+                minlength="3"
+                placeholder="Tu nombre completo"
+              />
+            </div>
+
+            <div>
+              <label for="correo">Correo electrónico:</label>
+              <input
+                type="email"
+                id="correo"
+                name="correo"
+                required
+                placeholder="tucorreo@ejemplo.com"
+              />
+            </div>
+
+            <div>
+              <label for="asunto">Asunto:</label>
+              <select id="asunto" name="asunto" required>
+                <option value="">Selecciona una opción</option>
+                <option value="consulta">Consulta general</option>
+                <option value="proyecto">Propuesta de proyecto</option>
+                <option value="empleo">Oferta de empleo</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="mensaje">Mensaje:</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                required
+                minlength="10"
+                rows="5"
+                placeholder="Escribe tu mensaje aquí"
+              ></textarea>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="aceptacion"
+                name="aceptacion"
+                required
+              />
+              <label for="aceptacion"
+                >Acepto el tratamiento de mis datos personales</label
+              >
+            </div>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </main>
+      <footer>Correo: santiago.munoz65555@ucaldas.edu.co <br />2026</footer>
+    </header>
+  </body>
+</html>
